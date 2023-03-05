@@ -24,3 +24,4 @@ Things you may want to cover:
 - ...
   // Hi Khoa anh Tuan Day
   // Em da doc duoc tin nhan
+  // To add file setting vscode mau cua to roi nhe

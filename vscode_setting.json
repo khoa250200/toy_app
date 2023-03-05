@@ -1,0 +1,105 @@
+{
+  "workbench.colorTheme": "Cobalt2",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "gitlens.historyExplorer.enabled": true,
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "editor.tabSize": 2,
+  // thụt đầu dòng tab or space
+  "editor.detectIndentation": true,
+  "editor.renderWhitespace": "boundary",
+  "files.trimTrailingWhitespace": false,
+  "gitlens.keymap": "chorded",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "400",
+  "editor.fontSize": 13,
+  "files.exclude": {
+    "node_modules/": true,
+    ".vscode": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "search.exclude": {
+    "node_modules/": true,
+    "Properties/": true,
+    "e2e/": true,
+    "nswag/": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.sideBar.location": "left",
+  "diffEditor.renderSideBySide": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  // "[vue]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "workbench.iconTheme": "material-icon-theme",
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "java.refactor.renameFromFileExplorer": "autoApply",
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "java.project.importOnFirstTimeStartup": "automatic",
+  "redhat.telemetry.enabled": false,
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/home/tuan/.vscode-server/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+  "editor.fontFamily": "'FuraCode Nerd Font','MesloLGS NF','SourceCodePro+Powerline+Awesome Regular','Inconsolata-g for Powerline','monospace','cascadia code','Operator mono',Menlo, Monaco, 'Courier New'",
+  "terminal.integrated.fontFamily": "'FuraCode Nerd Font Mono Retina','FuraCode Nerd Font','MesloLGS NF','SourceCodePro+Powerline+Awesome Regular','Inconsolata-g for Powerline'",
+  "azureFunctions.showMultiCoreToolsWarning": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "git.autofetch": true,
+  "vscodeGoogleTranslate.preferredLanguage": "Vietnamese",
+  "f5.nim.hosts": [],
+  "mssql.connections": [
+    {
+      "authenticationType": "SqlLogin",
+      "server": "192.168.0.196,1433",
+      "database": "LEARN_SQL",
+      "user": "SA",
+      "password": "",
+      "savePassword": true
+    }
+  ],
+  "[sql]": {
+    "editor.defaultFormatter": "cweijan.vscode-mysql-client2"
+  },
+  "files.associations": {
+    "*.env.development": "env",
+    "*.env.dev": "env",
+    "*.env.staging": "env",
+    "*.env.production": "env"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "projectManager.tags": [
+    "Personal",
+    "Work",
+    "Java",
+    "Node",
+    "SQL"
+  ],
+  "workbench.editor.pinnedTabSizing": "compact",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-11",
+      "path": "C:/Program Files/Eclipse Adoptium/jdk-11.0.14.9-hotspot/"
+    }
+  ],
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.defaultProfile.windows": "Ubuntu-20.04 (WSL)"
+}
